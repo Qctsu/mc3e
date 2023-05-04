@@ -30,8 +30,8 @@ export default class PropertyAttribution extends Application {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       id: "property-attribution",
-      classes: ["dnd5e", "property-attribution"],
-      template: "systems/dnd5e/templates/apps/property-attribution.hbs",
+      classes: ["mc3e", "property-attribution"],
+      template: "systems/mc3e/templates/apps/property-attribution.hbs",
       width: 320,
       height: "auto"
     });
@@ -82,11 +82,11 @@ export default class PropertyAttribution extends Application {
   getPropertyLabel(property) {
     const parts = property.split(".");
     if ( parts[0] === "abilities" && parts[1] ) {
-      return CONFIG.DND5E.abilities[parts[1]] ?? property;
-    } else if ( (property === "attributes.ac.dex") && CONFIG.DND5E.abilities.dex ) {
-      return CONFIG.DND5E.abilities.dex;
+      return CONFIG.mc3e.abilities[parts[1]] ?? property;
+    } else if ( (property === "attributes.ac.dex") && CONFIG.mc3e.abilities.dex ) {
+      return CONFIG.mc3e.abilities.dex;
     } else if ( (parts[0] === "prof") || (property === "attributes.prof") ) {
-      return game.i18n.localize("DND5E.Proficiency");
+      return game.i18n.localize("mc3e.Proficiency");
     }
     return property;
   }

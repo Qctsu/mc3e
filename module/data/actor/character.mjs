@@ -58,65 +58,65 @@ export default class CharacterData extends CreatureTemplate {
         ...AttributesFields.common,
         ...AttributesFields.creature,
         ac: new foundry.data.fields.SchemaField({
-          flat: new foundry.data.fields.NumberField({integer: true, min: 0, label: "DND5E.ArmorClassFlat"}),
-          calc: new foundry.data.fields.StringField({initial: "default", label: "DND5E.ArmorClassCalculation"}),
-          formula: new FormulaField({deterministic: true, label: "DND5E.ArmorClassFormula"})
-        }, {label: "DND5E.ArmorClass"}),
+          flat: new foundry.data.fields.NumberField({integer: true, min: 0, label: "mc3e.ArmorClassFlat"}),
+          calc: new foundry.data.fields.StringField({initial: "default", label: "mc3e.ArmorClassCalculation"}),
+          formula: new FormulaField({deterministic: true, label: "mc3e.ArmorClassFormula"})
+        }, {label: "mc3e.ArmorClass"}),
         hp: new foundry.data.fields.SchemaField({
           value: new foundry.data.fields.NumberField({
-            nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.HitPointsCurrent"
+            nullable: false, integer: true, min: 0, initial: 0, label: "mc3e.HitPointsCurrent"
           }),
           max: new foundry.data.fields.NumberField({
-            nullable: true, integer: true, min: 0, initial: null, label: "DND5E.HitPointsOverride"
+            nullable: true, integer: true, min: 0, initial: null, label: "mc3e.HitPointsOverride"
           }),
-          temp: new foundry.data.fields.NumberField({integer: true, initial: 0, min: 0, label: "DND5E.HitPointsTemp"}),
-          tempmax: new foundry.data.fields.NumberField({integer: true, initial: 0, label: "DND5E.HitPointsTempMax"}),
+          temp: new foundry.data.fields.NumberField({integer: true, initial: 0, min: 0, label: "mc3e.HitPointsTemp"}),
+          tempmax: new foundry.data.fields.NumberField({integer: true, initial: 0, label: "mc3e.HitPointsTempMax"}),
           bonuses: new foundry.data.fields.SchemaField({
-            level: new FormulaField({deterministic: true, label: "DND5E.HitPointsBonusLevel"}),
-            overall: new FormulaField({deterministic: true, label: "DND5E.HitPointsBonusOverall"})
+            level: new FormulaField({deterministic: true, label: "mc3e.HitPointsBonusLevel"}),
+            overall: new FormulaField({deterministic: true, label: "mc3e.HitPointsBonusOverall"})
           })
-        }, {label: "DND5E.HitPoints"}),
+        }, {label: "mc3e.HitPoints"}),
         death: new foundry.data.fields.SchemaField({
           success: new foundry.data.fields.NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.DeathSaveSuccesses"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "mc3e.DeathSaveSuccesses"
           }),
           failure: new foundry.data.fields.NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.DeathSaveFailures"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "mc3e.DeathSaveFailures"
           })
-        }, {label: "DND5E.DeathSave"}),
+        }, {label: "mc3e.DeathSave"}),
         exhaustion: new foundry.data.fields.NumberField({
-          required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.Exhaustion"
+          required: true, nullable: false, integer: true, min: 0, initial: 0, label: "mc3e.Exhaustion"
         }),
-        inspiration: new foundry.data.fields.BooleanField({required: true, label: "DND5E.Inspiration"})
-      }, {label: "DND5E.Attributes"}),
+        inspiration: new foundry.data.fields.BooleanField({required: true, label: "mc3e.Inspiration"})
+      }, {label: "mc3e.Attributes"}),
       details: new foundry.data.fields.SchemaField({
         ...DetailsFields.common,
         ...DetailsFields.creature,
-        background: new foundry.data.fields.StringField({required: true, label: "DND5E.Background"}),
-        originalClass: new foundry.data.fields.StringField({required: true, label: "DND5E.ClassOriginal"}),
+        background: new foundry.data.fields.StringField({required: true, label: "mc3e.Background"}),
+        originalClass: new foundry.data.fields.StringField({required: true, label: "mc3e.ClassOriginal"}),
         xp: new foundry.data.fields.SchemaField({
           value: new foundry.data.fields.NumberField({
-            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "DND5E.ExperiencePointsCurrent"
+            required: true, nullable: false, integer: true, min: 0, initial: 0, label: "mc3e.ExperiencePointsCurrent"
           })
-        }, {label: "DND5E.ExperiencePoints"}),
-        appearance: new foundry.data.fields.StringField({required: true, label: "DND5E.Appearance"}),
-        trait: new foundry.data.fields.StringField({required: true, label: "DND5E.PersonalityTraits"}),
-        ideal: new foundry.data.fields.StringField({required: true, label: "DND5E.Ideals"}),
-        bond: new foundry.data.fields.StringField({required: true, label: "DND5E.Bonds"}),
-        flaw: new foundry.data.fields.StringField({required: true, label: "DND5E.Flaws"})
-      }, {label: "DND5E.Details"}),
+        }, {label: "mc3e.ExperiencePoints"}),
+        appearance: new foundry.data.fields.StringField({required: true, label: "mc3e.Appearance"}),
+        trait: new foundry.data.fields.StringField({required: true, label: "mc3e.PersonalityTraits"}),
+        ideal: new foundry.data.fields.StringField({required: true, label: "mc3e.Ideals"}),
+        bond: new foundry.data.fields.StringField({required: true, label: "mc3e.Bonds"}),
+        flaw: new foundry.data.fields.StringField({required: true, label: "mc3e.Flaws"})
+      }, {label: "mc3e.Details"}),
       traits: new foundry.data.fields.SchemaField({
         ...TraitsFields.common,
         ...TraitsFields.creature,
-        weaponProf: TraitsFields.makeSimpleTrait({label: "DND5E.TraitWeaponProf"}),
-        armorProf: TraitsFields.makeSimpleTrait({label: "DND5E.TraitArmorProf"}),
-        toolProf: TraitsFields.makeSimpleTrait({label: "DND5E.TraitToolProf"})
-      }, {label: "DND5E.Traits"}),
+        weaponProf: TraitsFields.makeSimpleTrait({label: "mc3e.TraitWeaponProf"}),
+        armorProf: TraitsFields.makeSimpleTrait({label: "mc3e.TraitArmorProf"}),
+        toolProf: TraitsFields.makeSimpleTrait({label: "mc3e.TraitToolProf"})
+      }, {label: "mc3e.Traits"}),
       resources: new foundry.data.fields.SchemaField({
-        primary: makeResourceField({label: "DND5E.ResourcePrimary"}),
-        secondary: makeResourceField({label: "DND5E.ResourceSecondary"}),
-        tertiary: makeResourceField({label: "DND5E.ResourceTertiary"})
-      }, {label: "DND5E.Resources"})
+        primary: makeResourceField({label: "mc3e.ResourcePrimary"}),
+        secondary: makeResourceField({label: "mc3e.ResourceSecondary"}),
+        tertiary: makeResourceField({label: "mc3e.ResourceTertiary"})
+      }, {label: "mc3e.Resources"})
     });
   }
 
@@ -150,13 +150,13 @@ export default class CharacterData extends CreatureTemplate {
 function makeResourceField(schemaOptions={}) {
   return new foundry.data.fields.SchemaField({
     value: new foundry.data.fields.NumberField({
-      required: true, integer: true, initial: 0, labels: "DND5E.ResourceValue"
+      required: true, integer: true, initial: 0, labels: "mc3e.ResourceValue"
     }),
     max: new foundry.data.fields.NumberField({
-      required: true, integer: true, initial: 0, labels: "DND5E.ResourceMax"
+      required: true, integer: true, initial: 0, labels: "mc3e.ResourceMax"
     }),
-    sr: new foundry.data.fields.BooleanField({required: true, labels: "DND5E.ShortRestRecovery"}),
-    lr: new foundry.data.fields.BooleanField({required: true, labels: "DND5E.LongRestRecovery"}),
-    label: new foundry.data.fields.StringField({required: true, labels: "DND5E.ResourceLabel"})
+    sr: new foundry.data.fields.BooleanField({required: true, labels: "mc3e.ShortRestRecovery"}),
+    lr: new foundry.data.fields.BooleanField({required: true, labels: "mc3e.LongRestRecovery"}),
+    label: new foundry.data.fields.StringField({required: true, labels: "mc3e.ResourceLabel"})
   }, schemaOptions);
 }

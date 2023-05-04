@@ -101,43 +101,43 @@ export const validators = {
 /**
  * Define a set of template paths to pre-load. Pre-loaded templates are compiled and cached for fast access when
  * rendering. These paths will also be available as Handlebars partials by using the file name
- * (e.g. "dnd5e.actor-traits").
+ * (e.g. "mc3e.actor-traits").
  * @returns {Promise}
  */
 export async function preloadHandlebarsTemplates() {
   const partials = [
     // Shared Partials
-    "systems/dnd5e/templates/actors/parts/active-effects.hbs",
-    "systems/dnd5e/templates/apps/parts/trait-list.hbs",
+    "systems/mc3e/templates/actors/parts/active-effects.hbs",
+    "systems/mc3e/templates/apps/parts/trait-list.hbs",
 
     // Actor Sheet Partials
-    "systems/dnd5e/templates/actors/parts/actor-traits.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-inventory.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-features.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-warnings.hbs",
+    "systems/mc3e/templates/actors/parts/actor-traits.hbs",
+    "systems/mc3e/templates/actors/parts/actor-inventory.hbs",
+    "systems/mc3e/templates/actors/parts/actor-features.hbs",
+    "systems/mc3e/templates/actors/parts/actor-spellbook.hbs",
+    "systems/mc3e/templates/actors/parts/actor-warnings.hbs",
 
     // Item Sheet Partials
-    "systems/dnd5e/templates/items/parts/item-action.hbs",
-    "systems/dnd5e/templates/items/parts/item-activation.hbs",
-    "systems/dnd5e/templates/items/parts/item-advancement.hbs",
-    "systems/dnd5e/templates/items/parts/item-description.hbs",
-    "systems/dnd5e/templates/items/parts/item-mountable.hbs",
-    "systems/dnd5e/templates/items/parts/item-spellcasting.hbs",
-    "systems/dnd5e/templates/items/parts/item-summary.hbs",
+    "systems/mc3e/templates/items/parts/item-action.hbs",
+    "systems/mc3e/templates/items/parts/item-activation.hbs",
+    "systems/mc3e/templates/items/parts/item-advancement.hbs",
+    "systems/mc3e/templates/items/parts/item-description.hbs",
+    "systems/mc3e/templates/items/parts/item-mountable.hbs",
+    "systems/mc3e/templates/items/parts/item-spellcasting.hbs",
+    "systems/mc3e/templates/items/parts/item-summary.hbs",
 
     // Journal Partials
-    "systems/dnd5e/templates/journal/parts/journal-table.hbs",
+    "systems/mc3e/templates/journal/parts/journal-table.hbs",
 
     // Advancement Partials
-    "systems/dnd5e/templates/advancement/parts/advancement-controls.hbs",
-    "systems/dnd5e/templates/advancement/parts/advancement-spell-config.hbs"
+    "systems/mc3e/templates/advancement/parts/advancement-controls.hbs",
+    "systems/mc3e/templates/advancement/parts/advancement-spell-config.hbs"
   ];
 
   const paths = {};
   for ( const path of partials ) {
     paths[path.replace(".hbs", ".html")] = path;
-    paths[`dnd5e.${path.split("/").pop().replace(".hbs", "")}`] = path;
+    paths[`mc3e.${path.split("/").pop().replace(".hbs", "")}`] = path;
   }
 
   return loadTemplates(paths);
@@ -152,7 +152,7 @@ export async function preloadHandlebarsTemplates() {
  * @returns {string}
  */
 function itemContext(context, options) {
-  if ( arguments.length !== 2 ) throw new Error("#dnd5e-with requires exactly one argument");
+  if ( arguments.length !== 2 ) throw new Error("#mc3e-with requires exactly one argument");
   if ( foundry.utils.getType(context) === "function" ) context = context.call(this);
 
   const ctx = options.data.root.itemContext?.[context.id];
@@ -172,8 +172,8 @@ function itemContext(context, options) {
 export function registerHandlebarsHelpers() {
   Handlebars.registerHelper({
     getProperty: foundry.utils.getProperty,
-    "dnd5e-linkForUuid": linkForUuid,
-    "dnd5e-itemContext": itemContext
+    "mc3e-linkForUuid": linkForUuid,
+    "mc3e-itemContext": itemContext
   });
 }
 
@@ -190,7 +190,7 @@ const _preLocalizationRegistrations = {};
 
 /**
  * Mark the provided config key to be pre-localized during the init stage.
- * @param {string} configKeyPath          Key path within `CONFIG.DND5E` to localize.
+ * @param {string} configKeyPath          Key path within `CONFIG.mc3e` to localize.
  * @param {object} [options={}]
  * @param {string} [options.key]          If each entry in the config enum is an object,
  *                                        localize and sort using this property.
@@ -207,7 +207,7 @@ export function preLocalize(configKeyPath, { key, keys=[], sort=false }={}) {
 
 /**
  * Execute previously defined pre-localization tasks on the provided config object.
- * @param {object} config  The `CONFIG.DND5E` object to localize and sort. *Will be mutated.*
+ * @param {object} config  The `CONFIG.mc3e` object to localize and sort. *Will be mutated.*
  */
 export function performPreLocalization(config) {
   for ( const [keyPath, settings] of Object.entries(_preLocalizationRegistrations) ) {

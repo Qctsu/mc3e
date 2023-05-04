@@ -22,16 +22,16 @@
     }
   ],
   "esmodules": [
-    "dnd5e.mjs"
+    "mc3e.mjs"
   ],
   "styles": [
-    "dnd5e.css"
+    "mc3e.css"
   ],
   "packs": [
     {
       "name": "heroes",
       "label": "Starter Heroes",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/heroes.db",
       "type": "Actor",
       "private": false,
@@ -40,7 +40,7 @@
     {
       "name": "monsters",
       "label": "Monsters (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/monsters.db",
       "type": "Actor",
       "private": false,
@@ -49,7 +49,7 @@
     {
       "name": "items",
       "label": "Items (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/items.db",
       "type": "Item",
       "private": false,
@@ -58,7 +58,7 @@
     {
       "name": "tradegoods",
       "label": "Trade Goods (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/tradegoods.db",
       "type": "Item",
       "private": false,
@@ -67,7 +67,7 @@
     {
       "name": "spells",
       "label": "Spells (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/spells.db",
       "type": "Item",
       "private": false,
@@ -76,7 +76,7 @@
     {
       "name": "backgrounds",
       "label": "Backgrounds (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/backgrounds.db",
       "type": "Item",
       "private": false,
@@ -85,7 +85,7 @@
     {
       "name": "classes",
       "label": "Classes (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/classes.db",
       "type": "Item",
       "private": false,
@@ -94,7 +94,7 @@
     {
       "name": "subclasses",
       "label": "Subclasses (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/subclasses.db",
       "type": "Item",
       "private": false,
@@ -103,7 +103,7 @@
     {
       "name": "classfeatures",
       "label": "Class Features (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/classfeatures.db",
       "type": "Item",
       "private": false,
@@ -112,7 +112,7 @@
     {
       "name": "races",
       "label": "Racial Features (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/races.db",
       "type": "Item",
       "private": false,
@@ -121,7 +121,7 @@
     {
       "name": "monsterfeatures",
       "label": "Monster Features (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/monsterfeatures.db",
       "type": "Item",
       "private": false,
@@ -130,7 +130,7 @@
     {
       "name": "rules",
       "label": "Rules (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/rules.db",
       "type": "JournalEntry",
       "private": false,
@@ -139,7 +139,7 @@
     {
       "name": "tables",
       "label": "Tables (SRD)",
-      "system": "dnd5e",
+      "system": "mc3e",
       "path": "packs/tables.db",
       "type": "RollTable",
       "private": false,

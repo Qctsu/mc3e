@@ -13,7 +13,7 @@ import PhysicalItemTemplate from "./templates/physical-item.mjs";
  * @mixes ActivatedEffectTemplate
  * @mixes ActionTemplate
  *
- * @property {string} consumableType     Type of consumable as defined in `DND5E.consumableTypes`.
+ * @property {string} consumableType     Type of consumable as defined in `mc3e.consumableTypes`.
  * @property {object} uses
  * @property {boolean} uses.autoDestroy  Should this item be destroyed when it runs out of uses.
  */
@@ -24,11 +24,11 @@ export default class ConsumableData extends SystemDataModel.mixin(
   static defineSchema() {
     return this.mergeSchema(super.defineSchema(), {
       consumableType: new foundry.data.fields.StringField({
-        required: true, initial: "potion", label: "DND5E.ItemConsumableType"
+        required: true, initial: "potion", label: "mc3e.ItemConsumableType"
       }),
       uses: new ActivatedEffectTemplate.ItemUsesField({
-        autoDestroy: new foundry.data.fields.BooleanField({required: true, label: "DND5E.ItemDestroyEmpty"})
-      }, {label: "DND5E.LimitedUses"})
+        autoDestroy: new foundry.data.fields.BooleanField({required: true, label: "mc3e.ItemDestroyEmpty"})
+      }, {label: "mc3e.LimitedUses"})
     });
   }
 }

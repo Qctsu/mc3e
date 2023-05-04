@@ -588,7 +588,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.tH5Rn0JVRG1zdmPa"
+          "sourceId": "Compendium.mc3e.items.tH5Rn0JVRG1zdmPa"
         }
       },
       "img": "icons/commodities/gems/pearl-natural.webp",
@@ -714,7 +714,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.0E565kQUBmndJ1a2"
+          "sourceId": "Compendium.mc3e.items.0E565kQUBmndJ1a2"
         }
       },
       "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
@@ -840,7 +840,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.g2dWN7PQiMRYWzyk"
+          "sourceId": "Compendium.mc3e.items.g2dWN7PQiMRYWzyk"
         }
       },
       "img": "icons/weapons/staves/staff-simple-gold.webp",
@@ -850,12 +850,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641046,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -952,7 +952,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.8GCEodUsTEEpBlO6"
+          "sourceId": "Compendium.mc3e.items.8GCEodUsTEEpBlO6"
         }
       },
       "img": "icons/equipment/back/mantle-collared-black.webp",
@@ -1007,7 +1007,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.H8YCd689ezlD26aT"
+          "sourceId": "Compendium.mc3e.items.H8YCd689ezlD26aT"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather.webp",
@@ -1062,7 +1062,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.9bWTRRDym06PzSAf"
+          "sourceId": "Compendium.mc3e.items.9bWTRRDym06PzSAf"
         }
       },
       "img": "icons/containers/bags/coinpouch-simple-tan.webp",
@@ -1072,12 +1072,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641060,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1157,7 +1157,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.eZGmdOhaTWMicXPW"
+          "sourceId": "Compendium.mc3e.items.eZGmdOhaTWMicXPW"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather-tan.webp",
@@ -1252,7 +1252,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.QXmaarJ4X8P0C1HV"
+          "sourceId": "Compendium.mc3e.items.QXmaarJ4X8P0C1HV"
         }
       },
       "img": "icons/sundries/survival/rope-wrapped-brown.webp",
@@ -1295,7 +1295,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DVXmyetZuvxbzAwW"
+          "sourceId": "Compendium.mc3e.items.DVXmyetZuvxbzAwW"
         }
       },
       "img": "icons/sundries/flags/banner-worn-blue.webp",
@@ -1338,7 +1338,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.V13fjV5oSmvbRdgP"
+          "sourceId": "Compendium.mc3e.items.V13fjV5oSmvbRdgP"
         }
       },
       "img": "icons/tools/cooking/fork-steel-grey.webp",
@@ -1348,12 +1348,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641068,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1381,7 +1381,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DNOSEAvF4Oh1DlWy"
+          "sourceId": "Compendium.mc3e.items.DNOSEAvF4Oh1DlWy"
         }
       },
       "img": "icons/sundries/lights/torch-black.webp",
@@ -1391,12 +1391,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641079,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1476,7 +1476,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.f4w4GxBi0nYXmhX4"
+          "sourceId": "Compendium.mc3e.items.f4w4GxBi0nYXmhX4"
         }
       },
       "img": "icons/consumables/meat/hock-leg-pink-brown.webp",
@@ -1486,12 +1486,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641089,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1576,7 +1576,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.BnOCLuNWhVvzHLjl"
+          "sourceId": "Compendium.mc3e.items.BnOCLuNWhVvzHLjl"
         }
       },
       "img": "icons/sundries/lights/torch-black.webp",
@@ -1586,12 +1586,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011647627,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1671,7 +1671,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.Uv0ilmzbWvqmlCVH"
+          "sourceId": "Compendium.mc3e.items.Uv0ilmzbWvqmlCVH"
         }
       },
       "img": "icons/sundries/survival/wetskin-leather-purple.webp",
@@ -1681,12 +1681,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641109,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1714,7 +1714,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.dP7jMKyHTTgVb3ii"
+          "sourceId": "Compendium.mc3e.items.dP7jMKyHTTgVb3ii"
         }
       },
       "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
@@ -1757,7 +1757,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.uVm7MiB71QblfnoY"
+          "sourceId": "Compendium.mc3e.items.uVm7MiB71QblfnoY"
         }
       },
       "img": "icons/commodities/materials/feather-red-.webp",
@@ -1767,12 +1767,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011647646,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1800,7 +1800,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.WFQS2vT8ddrFjTJg"
+          "sourceId": "Compendium.mc3e.items.WFQS2vT8ddrFjTJg"
         }
       },
       "img": "icons/sundries/documents/document-symbol-circle-gold-red.webp",
@@ -1810,12 +1810,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641126,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1843,7 +1843,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.l794iywHk8Wc6Uvi"
+          "sourceId": "Compendium.mc3e.items.l794iywHk8Wc6Uvi"
         }
       },
       "img": "icons/sundries/books/book-plain-orange.webp",
@@ -1886,7 +1886,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.3nVvaHVfHsgwGlkL"
+          "sourceId": "Compendium.mc3e.items.3nVvaHVfHsgwGlkL"
         }
       },
       "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
@@ -1896,12 +1896,12 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
         "modifiedTime": 1670011641137,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -1978,7 +1978,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.q71Pe1F8RRtEJt8Q"
+          "sourceId": "Compendium.mc3e.races.q71Pe1F8RRtEJt8Q"
         }
       },
       "img": "icons/magic/air/fog-gas-smoke-swirling-orange.webp",
@@ -2002,7 +2002,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>You know the @Compendium[dnd5e.spells.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip.</p><p>When you reach 3rd level, you can cast the @Compendium[dnd5e.spells.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.</p><p>When you reach 5th level, you can cast the @Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>",
+          "value": "<p>You know the @Compendium[mc3e.spells.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip.</p><p>When you reach 3rd level, you can cast the @Compendium[mc3e.spells.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.</p><p>When you reach 5th level, you can cast the @Compendium[mc3e.spells.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>",
           "chat": "",
           "unidentified": ""
         },
@@ -2070,7 +2070,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.wJc88B8OP1y1xzMw"
+          "sourceId": "Compendium.mc3e.races.wJc88B8OP1y1xzMw"
         }
       },
       "img": "icons/creatures/unholy/demon-fanged-horned-yellow.webp",
@@ -2094,7 +2094,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<div title=\"Page 7\">\n<div>\n<div>\n<p><em>Tieflings share certain racial traits as a result of their infernal descent. </em></p><p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p><p><em><strong>Age.</strong></em> Tieflings mature at the same rate as humans but live a few years longer.</p><p><em><strong>Alignment.</strong></em> Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p><p><em><strong>Size.</strong></em> Tieflings are about the same size and build as humans. Your size is Medium.</p><p><em><strong>Speed. </strong></em>Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hellish Resistance. </strong></em>@Compendium[dnd5e.races.q71Pe1F8RRtEJt8Q]{Hellish Resistance} You have resistance to fire damage.</p><p><em><strong>Infernal Legacy.</strong></em> @Compendium[dnd5e.races.wJc88B8OP1y1xzMw]{Infernal Legacy} You know the @Compendium[dnd5e.spells.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip. When you reach 3rd level, you can cast the @Compendium[dnd5e.spells.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd‑level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the @Compendium[dnd5e.spells.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Common and Infernal.</p>\n</div>\n</div>\n</div>",
+          "value": "<div title=\"Page 7\">\n<div>\n<div>\n<p><em>Tieflings share certain racial traits as a result of their infernal descent. </em></p><p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p><p><em><strong>Age.</strong></em> Tieflings mature at the same rate as humans but live a few years longer.</p><p><em><strong>Alignment.</strong></em> Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p><p><em><strong>Size.</strong></em> Tieflings are about the same size and build as humans. Your size is Medium.</p><p><em><strong>Speed. </strong></em>Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hellish Resistance. </strong></em>@Compendium[mc3e.races.q71Pe1F8RRtEJt8Q]{Hellish Resistance} You have resistance to fire damage.</p><p><em><strong>Infernal Legacy.</strong></em> @Compendium[mc3e.races.wJc88B8OP1y1xzMw]{Infernal Legacy} You know the @Compendium[mc3e.spells.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip. When you reach 3rd level, you can cast the @Compendium[mc3e.spells.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd‑level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the @Compendium[mc3e.spells.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Common and Infernal.</p>\n</div>\n</div>\n</div>",
           "chat": "",
           "unidentified": ""
         },
@@ -2162,7 +2162,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.aHTokZ151W0ASSmo"
+          "sourceId": "Compendium.mc3e.races.aHTokZ151W0ASSmo"
         }
       },
       "img": "icons/magic/air/wind-tornado-cyclone-red-orange.webp",
@@ -2187,7 +2187,7 @@
       "img": "icons/magic/earth/projectiles-magma-stone-orange.webp",
       "system": {
         "description": {
-          "value": "<p>As a sorcerer, you gain the following class features.</p>\n<h3>Hit Points</h3>\n<p><strong>Hit Dice:</strong> 1d6 per sorcerer level<br /><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st</p>\n<h3>Proficiencies</h3>\n<p><strong>Armor:</strong> None<br /><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Constitution, Charisma<br /><strong>Skills:</strong> Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</p>\n<h3>Equipment</h3>\n<p>You start with the following equipment, in addition to the equipment granted by your background:</p>\n<ul>\n<li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li>\n<li>(a) a component pouch or (b) an arcane focus</li>\n<li>(a) a dungeoneer's pack or (b) an explorer's pack</li>\n<li>Two daggers</li>\n</ul>\n<h1>Sorcerer Advancement</h1>\n<table>\n<thead>\n<tr>\n<td>Level</td>\n<td>Proficiency Bonus</td>\n<td>Sorcery Points</td>\n<td>Features</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>+2</td>\n<td>̶</td>\n<td>@Compendium[dnd5e.classfeatures.oygRF3ZjTv2T7z0Y]{Spellcasting}, @Compendium[dnd5e.classfeatures.cmRCL9T9UgRYOj1c]{Sorcerous Origins}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+2</td>\n<td>2</td>\n<td>@Compendium[dnd5e.classfeatures.LBKChJY5n02Afhnq]{Font of Magic}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>3</td>\n<td>2nd Level Spell Slot, @Compendium[dnd5e.classfeatures.9Uh7uTDNZ04oTJsL]{Metamagic}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+2</td>\n<td>4</td>\n<td>@Compendium[dnd5e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>5</td>\n<td>3rd Level Spell Slot</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+3</td>\n<td>6</td>\n<td>Sorcerous Origin feature</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+3</td>\n<td>7</td>\n<td>4th Level Spell Slot</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+3</td>\n<td>8</td>\n<td>@Compendium[dnd5e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+4</td>\n<td>9</td>\n<td>5th Level Spell Slot</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+4</td>\n<td>10</td>\n<td>@Compendium[dnd5e.classfeatures.9Uh7uTDNZ04oTJsL]{Metamagic improvement}</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+4</td>\n<td>11</td>\n<td>6th Level Spell Slot</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+4</td>\n<td>12</td>\n<td>@Compendium[dnd5e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+5</td>\n<td>13</td>\n<td>7th Level Spell Slot</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+5</td>\n<td>14</td>\n<td>Sorcerous Origin feature</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+5</td>\n<td>15</td>\n<td>8th Level Spell Slot</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+5</td>\n<td>16</td>\n<td>@Compendium[dnd5e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+6</td>\n<td>17</td>\n<td>9th Level Spell Slot, @Compendium[dnd5e.classfeatures.9Uh7uTDNZ04oTJsL]{Metamagic improvement}</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+6</td>\n<td>18</td>\n<td>Sorcerous Origin feature</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+6</td>\n<td>19</td>\n<td>@Compendium[dnd5e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+6</td>\n<td>20</td>\n<td>@Compendium[dnd5e.classfeatures.F2lEKSmOY0NUruzY]{Sorcerous Restoration}</td>\n</tr>\n</tbody>\n</table>\n<h1>Sorcerous Origins</h1>\n<p>Different sorcerers claim different origins for their innate magic, such as a draconic bloodline.</p>\n<p>@Compendium[dnd5e.subclasses.2nadB2MBSHTQ0kcl]{Draconic Bloodline}</p>",
+          "value": "<p>As a sorcerer, you gain the following class features.</p>\n<h3>Hit Points</h3>\n<p><strong>Hit Dice:</strong> 1d6 per sorcerer level<br /><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st</p>\n<h3>Proficiencies</h3>\n<p><strong>Armor:</strong> None<br /><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Constitution, Charisma<br /><strong>Skills:</strong> Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</p>\n<h3>Equipment</h3>\n<p>You start with the following equipment, in addition to the equipment granted by your background:</p>\n<ul>\n<li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li>\n<li>(a) a component pouch or (b) an arcane focus</li>\n<li>(a) a dungeoneer's pack or (b) an explorer's pack</li>\n<li>Two daggers</li>\n</ul>\n<h1>Sorcerer Advancement</h1>\n<table>\n<thead>\n<tr>\n<td>Level</td>\n<td>Proficiency Bonus</td>\n<td>Sorcery Points</td>\n<td>Features</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>+2</td>\n<td>̶</td>\n<td>@Compendium[mc3e.classfeatures.oygRF3ZjTv2T7z0Y]{Spellcasting}, @Compendium[mc3e.classfeatures.cmRCL9T9UgRYOj1c]{Sorcerous Origins}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+2</td>\n<td>2</td>\n<td>@Compendium[mc3e.classfeatures.LBKChJY5n02Afhnq]{Font of Magic}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>3</td>\n<td>2nd Level Spell Slot, @Compendium[mc3e.classfeatures.9Uh7uTDNZ04oTJsL]{Metamagic}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+2</td>\n<td>4</td>\n<td>@Compendium[mc3e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>5</td>\n<td>3rd Level Spell Slot</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+3</td>\n<td>6</td>\n<td>Sorcerous Origin feature</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+3</td>\n<td>7</td>\n<td>4th Level Spell Slot</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+3</td>\n<td>8</td>\n<td>@Compendium[mc3e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+4</td>\n<td>9</td>\n<td>5th Level Spell Slot</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+4</td>\n<td>10</td>\n<td>@Compendium[mc3e.classfeatures.9Uh7uTDNZ04oTJsL]{Metamagic improvement}</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+4</td>\n<td>11</td>\n<td>6th Level Spell Slot</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+4</td>\n<td>12</td>\n<td>@Compendium[mc3e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+5</td>\n<td>13</td>\n<td>7th Level Spell Slot</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+5</td>\n<td>14</td>\n<td>Sorcerous Origin feature</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+5</td>\n<td>15</td>\n<td>8th Level Spell Slot</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+5</td>\n<td>16</td>\n<td>@Compendium[mc3e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+6</td>\n<td>17</td>\n<td>9th Level Spell Slot, @Compendium[mc3e.classfeatures.9Uh7uTDNZ04oTJsL]{Metamagic improvement}</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+6</td>\n<td>18</td>\n<td>Sorcerous Origin feature</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+6</td>\n<td>19</td>\n<td>@Compendium[mc3e.classfeatures.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+6</td>\n<td>20</td>\n<td>@Compendium[mc3e.classfeatures.F2lEKSmOY0NUruzY]{Sorcerous Restoration}</td>\n</tr>\n</tbody>\n</table>\n<h1>Sorcerous Origins</h1>\n<p>Different sorcerers claim different origins for their innate magic, such as a draconic bloodline.</p>\n<p>@Compendium[mc3e.subclasses.2nadB2MBSHTQ0kcl]{Draconic Bloodline}</p>",
           "chat": "",
           "unidentified": ""
         },
@@ -2202,8 +2202,8 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.oygRF3ZjTv2T7z0Y",
-                "Compendium.dnd5e.classfeatures.cmRCL9T9UgRYOj1c"
+                "Compendium.mc3e.classfeatures.oygRF3ZjTv2T7z0Y",
+                "Compendium.mc3e.classfeatures.cmRCL9T9UgRYOj1c"
               ],
               "optional": false,
               "spell": {
@@ -2217,8 +2217,8 @@
             },
             "value": {
               "added": {
-                "w5ecv78hsyiui3ho": "Compendium.dnd5e.classfeatures.oygRF3ZjTv2T7z0Y",
-                "ipplypb2dw25lwg9": "Compendium.dnd5e.classfeatures.cmRCL9T9UgRYOj1c"
+                "w5ecv78hsyiui3ho": "Compendium.mc3e.classfeatures.oygRF3ZjTv2T7z0Y",
+                "ipplypb2dw25lwg9": "Compendium.mc3e.classfeatures.cmRCL9T9UgRYOj1c"
               }
             },
             "level": 1,
@@ -2229,7 +2229,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.LBKChJY5n02Afhnq"
+                "Compendium.mc3e.classfeatures.LBKChJY5n02Afhnq"
               ],
               "optional": false,
               "spell": {
@@ -2250,7 +2250,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.9Uh7uTDNZ04oTJsL"
+                "Compendium.mc3e.classfeatures.9Uh7uTDNZ04oTJsL"
               ],
               "optional": false,
               "spell": {
@@ -2271,7 +2271,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.F2lEKSmOY0NUruzY"
+                "Compendium.mc3e.classfeatures.F2lEKSmOY0NUruzY"
               ],
               "optional": false,
               "spell": {
@@ -2326,7 +2326,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.classes.6T08zzKtmmpVwlXU"
+          "sourceId": "Compendium.mc3e.classes.6T08zzKtmmpVwlXU"
         }
       },
       "_stats": {
@@ -2417,12 +2417,12 @@
         "default": 0
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.oygRF3ZjTv2T7z0Y",
+        "mc3e": {
+          "sourceId": "Compendium.mc3e.classfeatures.oygRF3ZjTv2T7z0Y",
           "advancementOrigin": "blu8155lcbwm8o1s.uuxthec7dohzb4wn"
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.oygRF3ZjTv2T7z0Y"
+          "sourceId": "Compendium.mc3e.classfeatures.oygRF3ZjTv2T7z0Y"
         }
       },
       "_stats": {
@@ -2513,12 +2513,12 @@
         "default": 0
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.cmRCL9T9UgRYOj1c",
+        "mc3e": {
+          "sourceId": "Compendium.mc3e.classfeatures.cmRCL9T9UgRYOj1c",
           "advancementOrigin": "blu8155lcbwm8o1s.uuxthec7dohzb4wn"
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.cmRCL9T9UgRYOj1c"
+          "sourceId": "Compendium.mc3e.classfeatures.cmRCL9T9UgRYOj1c"
         }
       },
       "_stats": {
@@ -2550,8 +2550,8 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.EZsonMThTNLZq35j",
-                "Compendium.dnd5e.classfeatures.MW1ExvBLm8Hg82aA"
+                "Compendium.mc3e.classfeatures.EZsonMThTNLZq35j",
+                "Compendium.mc3e.classfeatures.MW1ExvBLm8Hg82aA"
               ],
               "optional": false,
               "spell": {
@@ -2565,8 +2565,8 @@
             },
             "value": {
               "added": {
-                "hb79jvadlbp5y3yf": "Compendium.dnd5e.classfeatures.EZsonMThTNLZq35j",
-                "2imt4re4r61bps2e": "Compendium.dnd5e.classfeatures.MW1ExvBLm8Hg82aA"
+                "hb79jvadlbp5y3yf": "Compendium.mc3e.classfeatures.EZsonMThTNLZq35j",
+                "2imt4re4r61bps2e": "Compendium.mc3e.classfeatures.MW1ExvBLm8Hg82aA"
               }
             },
             "level": 1,
@@ -2577,7 +2577,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.x6eEZ9GUsuOcEa3G"
+                "Compendium.mc3e.classfeatures.x6eEZ9GUsuOcEa3G"
               ],
               "optional": false,
               "spell": {
@@ -2598,7 +2598,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.3647zjKSE9zFwOXc"
+                "Compendium.mc3e.classfeatures.3647zjKSE9zFwOXc"
               ],
               "optional": false,
               "spell": {
@@ -2619,7 +2619,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.Gsha4bl0apxqspFy"
+                "Compendium.mc3e.classfeatures.Gsha4bl0apxqspFy"
               ],
               "optional": false,
               "spell": {
@@ -2649,7 +2649,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.subclasses.2nadB2MBSHTQ0kcl"
+          "sourceId": "Compendium.mc3e.subclasses.2nadB2MBSHTQ0kcl"
         }
       },
       "_stats": {
@@ -2769,12 +2769,12 @@
         "default": 0
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.EZsonMThTNLZq35j",
+        "mc3e": {
+          "sourceId": "Compendium.mc3e.classfeatures.EZsonMThTNLZq35j",
           "advancementOrigin": "f3p50jjvtk2ao61n.bjbipb2oydq3zsuy"
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.EZsonMThTNLZq35j"
+          "sourceId": "Compendium.mc3e.classfeatures.EZsonMThTNLZq35j"
         }
       },
       "_stats": {
@@ -2894,12 +2894,12 @@
         "default": 0
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.MW1ExvBLm8Hg82aA",
+        "mc3e": {
+          "sourceId": "Compendium.mc3e.classfeatures.MW1ExvBLm8Hg82aA",
           "advancementOrigin": "f3p50jjvtk2ao61n.bjbipb2oydq3zsuy"
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.MW1ExvBLm8Hg82aA"
+          "sourceId": "Compendium.mc3e.classfeatures.MW1ExvBLm8Hg82aA"
         }
       },
       "_stats": {
@@ -3002,19 +3002,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.MUO1uYN7JR1hm4dR"
+          "sourceId": "Compendium.mc3e.spells.MUO1uYN7JR1hm4dR"
         }
       },
       "img": "icons/magic/fire/explosion-fireball-small-purple-orange.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486272,
         "modifiedTime": 1661603486272,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3108,19 +3108,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.kjmjY0zlE6IEiQVL"
+          "sourceId": "Compendium.mc3e.spells.kjmjY0zlE6IEiQVL"
         }
       },
       "img": "icons/magic/air/wind-stream-purple-blue.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486272,
         "modifiedTime": 1661603486272,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3219,19 +3219,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.EOmsUcFQJTfG2oio"
+          "sourceId": "Compendium.mc3e.spells.EOmsUcFQJTfG2oio"
         }
       },
       "img": "icons/magic/fire/projectile-fireball-smoke-orange.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486272,
         "modifiedTime": 1661603486272,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3325,19 +3325,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.oIzA2MEHwxhtQneU"
+          "sourceId": "Compendium.mc3e.spells.oIzA2MEHwxhtQneU"
         }
       },
       "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486273,
         "modifiedTime": 1661603486273,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3431,19 +3431,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.icZokbgV1jIMpNCv"
+          "sourceId": "Compendium.mc3e.spells.icZokbgV1jIMpNCv"
         }
       },
       "img": "icons/commodities/currency/coin-engraved-sun-smile-copper.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486273,
         "modifiedTime": 1661603486273,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3542,19 +3542,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.5SuJewoa1CRWaj1F"
+          "sourceId": "Compendium.mc3e.spells.5SuJewoa1CRWaj1F"
         }
       },
       "img": "icons/magic/air/fog-gas-smoke-dense-orange.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486273,
         "modifiedTime": 1661603486273,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3648,19 +3648,19 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.A3q2gTNqG6fvNGrv"
+          "sourceId": "Compendium.mc3e.spells.A3q2gTNqG6fvNGrv"
         }
       },
       "img": "icons/magic/control/debuff-energy-hold-teal-blue.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486274,
         "modifiedTime": 1661603486274,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       }
     },
     {
@@ -3684,12 +3684,12 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "mc3e",
         "systemVersion": "2.1.0",
         "coreVersion": "10.291",
         "createdTime": 1673040183979,
         "modifiedTime": 1673040768566,
-        "lastModifiedBy": "dnd5ebuilder0000"
+        "lastModifiedBy": "mc3ebuilder0000"
       },
       "_id": "38phJIpUGf6pPv1e"
     }
@@ -3717,7 +3717,7 @@
       },
       "icon": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "label": "Dragon Ancestor",
-      "origin": "Compendium.dnd5e.heroes.xT2C2Itv2XambDYp.Item.hb79jvadlbp5y3yf",
+      "origin": "Compendium.mc3e.heroes.xT2C2Itv2XambDYp.Item.hb79jvadlbp5y3yf",
       "tint": null,
       "transfer": false,
       "flags": {},
@@ -3745,7 +3745,7 @@
       },
       "icon": "icons/creatures/claws/claw-scaled-red.webp",
       "label": "Draconic Resilience",
-      "origin": "Compendium.dnd5e.heroes.xT2C2Itv2XambDYp.Item.2imt4re4r61bps2e",
+      "origin": "Compendium.mc3e.heroes.xT2C2Itv2XambDYp.Item.2imt4re4r61bps2e",
       "tint": null,
       "transfer": false,
       "flags": {},
@@ -3759,11 +3759,11 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "mc3e",
     "systemVersion": "2.1.0",
     "coreVersion": "10.291",
     "createdTime": 1661787232194,
     "modifiedTime": 1673040770386,
-    "lastModifiedBy": "dnd5ebuilder0000"
+    "lastModifiedBy": "mc3ebuilder0000"
   }
 }

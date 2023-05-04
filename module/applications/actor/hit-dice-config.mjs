@@ -8,8 +8,8 @@ export default class ActorHitDiceConfig extends BaseConfigSheet {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "hd-config", "dialog"],
-      template: "systems/dnd5e/templates/apps/hit-dice-config.hbs",
+      classes: ["mc3e", "hd-config", "dialog"],
+      template: "systems/mc3e/templates/apps/hit-dice-config.hbs",
       width: 360,
       height: "auto"
     });
@@ -19,7 +19,7 @@ export default class ActorHitDiceConfig extends BaseConfigSheet {
 
   /** @inheritDoc */
   get title() {
-    return `${game.i18n.localize("DND5E.HitDiceConfig")}: ${this.object.name}`;
+    return `${game.i18n.localize("mc3e.HitDiceConfig")}: ${this.object.name}`;
   }
 
   /* -------------------------------------------- */

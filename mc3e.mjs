@@ -1,15 +1,15 @@
 /**
- * The DnD5e game system for Foundry Virtual Tabletop
+ * The mc3e game system for Foundry Virtual Tabletop
  * A system for playing the fifth edition of the world's most popular role-playing game.
  * Author: Atropos
  * Software License: MIT
  * Content License: https://www.dndbeyond.com/attachments/39j2li89/SRD5.1-CCBY4.0License.pdf
- * Repository: https://github.com/foundryvtt/dnd5e
- * Issue Tracker: https://github.com/foundryvtt/dnd5e/issues
+ * Repository: https://github.com/foundryvtt/mc3e
+ * Issue Tracker: https://github.com/foundryvtt/mc3e/issues
  */
 
 // Import Configuration
-import DND5E from "./module/config.mjs";
+import mc3e from "./module/config.mjs";
 import registerSystemSettings from "./module/settings.mjs";
 
 // Import Submodules
@@ -26,10 +26,10 @@ import {ModuleArt} from "./module/module-art.mjs";
 /*  Define Module Structure                     */
 /* -------------------------------------------- */
 
-globalThis.dnd5e = {
+globalThis.mc3e = {
   applications,
   canvas,
-  config: DND5E,
+  config: mc3e,
   dataModels,
   dice,
   documents,
@@ -42,47 +42,47 @@ globalThis.dnd5e = {
 /* -------------------------------------------- */
 
 Hooks.once("init", function() {
-  globalThis.dnd5e = game.dnd5e = Object.assign(game.system, globalThis.dnd5e);
-  console.log(`DnD5e | Initializing the DnD5e Game System - Version ${dnd5e.version}\n${DND5E.ASCII}`);
+  globalThis.mc3e = game.mc3e = Object.assign(game.system, globalThis.mc3e);
+  console.log(`mc3e | Initializing the mc3e Game System - Version ${mc3e.version}\n${mc3e.ASCII}`);
 
   /** @deprecated */
-  Object.defineProperty(dnd5e, "entities", {
+  Object.defineProperty(mc3e, "entities", {
     get() {
       foundry.utils.logCompatibilityWarning(
-        "You are referencing the 'dnd5e.entities' property which has been deprecated and renamed to "
-        + "'dnd5e.documents'. Support for this old path will be removed in a future version.",
-        { since: "DnD5e 2.0", until: "DnD5e 2.2" }
+        "You are referencing the 'mc3e.entities' property which has been deprecated and renamed to "
+        + "'mc3e.documents'. Support for this old path will be removed in a future version.",
+        { since: "mc3e 2.0", until: "mc3e 2.2" }
       );
-      return dnd5e.documents;
+      return mc3e.documents;
     }
   });
 
   /** @deprecated */
-  Object.defineProperty(dnd5e, "rollItemMacro", {
+  Object.defineProperty(mc3e, "rollItemMacro", {
     get() {
       foundry.utils.logCompatibilityWarning(
-        "You are referencing the 'dnd5e.rollItemMacro' method which has been deprecated and renamed to "
-        + "'dnd5e.documents.macro.rollItem'. Support for this old path will be removed in a future version.",
-        { since: "DnD5e 2.0", until: "DnD5e 2.2" }
+        "You are referencing the 'mc3e.rollItemMacro' method which has been deprecated and renamed to "
+        + "'mc3e.documents.macro.rollItem'. Support for this old path will be removed in a future version.",
+        { since: "mc3e 2.0", until: "mc3e 2.2" }
       );
-      return dnd5e.documents.macro.rollItem;
+      return mc3e.documents.macro.rollItem;
     }
   });
 
   /** @deprecated */
-  Object.defineProperty(dnd5e, "macros", {
+  Object.defineProperty(mc3e, "macros", {
     get() {
       foundry.utils.logCompatibilityWarning(
-        "You are referencing the 'dnd5e.macros' property which has been deprecated and renamed to "
-        + "'dnd5e.documents.macro'. Support for this old path will be removed in a future version.",
-        { since: "DnD5e 2.0", until: "DnD5e 2.2" }
+        "You are referencing the 'mc3e.macros' property which has been deprecated and renamed to "
+        + "'mc3e.documents.macro'. Support for this old path will be removed in a future version.",
+        { since: "mc3e 2.0", until: "mc3e 2.2" }
       );
-      return dnd5e.documents.macro;
+      return mc3e.documents.macro;
     }
   });
 
   // Record Configuration Values
-  CONFIG.DND5E = DND5E;
+  CONFIG.mc3e = mc3e;
   CONFIG.ActiveEffect.documentClass = documents.ActiveEffect5e;
   CONFIG.Actor.documentClass = documents.Actor5e;
   CONFIG.Item.documentClass = documents.Item5e;
@@ -101,16 +101,16 @@ Hooks.once("init", function() {
   _determineValidationStrictness();
 
   // Configure module art.
-  game.dnd5e.moduleArt = new ModuleArt();
+  game.mc3e.moduleArt = new ModuleArt();
 
   // Remove honor & sanity from configuration if they aren't enabled
-  if ( !game.settings.get("dnd5e", "honorScore") ) {
-    delete DND5E.abilities.hon;
-    delete DND5E.abilityAbbreviations.hon;
+  if ( !game.settings.get("mc3e", "honorScore") ) {
+    delete mc3e.abilities.hon;
+    delete mc3e.abilityAbbreviations.hon;
   }
-  if ( !game.settings.get("dnd5e", "sanityScore") ) {
-    delete DND5E.abilities.san;
-    delete DND5E.abilityAbbreviations.san;
+  if ( !game.settings.get("mc3e", "sanityScore") ) {
+    delete mc3e.abilities.san;
+    delete mc3e.abilityAbbreviations.san;
   }
 
   // Patch Core Functions
@@ -127,34 +127,34 @@ Hooks.once("init", function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("dnd5e", applications.actor.ActorSheet5eCharacter, {
+  Actors.registerSheet("mc3e", applications.actor.ActorSheet5eCharacter, {
     types: ["character"],
     makeDefault: true,
-    label: "DND5E.SheetClassCharacter"
+    label: "mc3e.SheetClassCharacter"
   });
-  Actors.registerSheet("dnd5e", applications.actor.ActorSheet5eNPC, {
+  Actors.registerSheet("mc3e", applications.actor.ActorSheet5eNPC, {
     types: ["npc"],
     makeDefault: true,
-    label: "DND5E.SheetClassNPC"
+    label: "mc3e.SheetClassNPC"
   });
-  Actors.registerSheet("dnd5e", applications.actor.ActorSheet5eVehicle, {
+  Actors.registerSheet("mc3e", applications.actor.ActorSheet5eVehicle, {
     types: ["vehicle"],
     makeDefault: true,
-    label: "DND5E.SheetClassVehicle"
+    label: "mc3e.SheetClassVehicle"
   });
-  Actors.registerSheet("dnd5e", applications.actor.GroupActorSheet, {
+  Actors.registerSheet("mc3e", applications.actor.GroupActorSheet, {
     types: ["group"],
     makeDefault: true,
-    label: "DND5E.SheetClassGroup"
+    label: "mc3e.SheetClassGroup"
   });
 
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("dnd5e", applications.item.ItemSheet5e, {
+  Items.registerSheet("mc3e", applications.item.ItemSheet5e, {
     makeDefault: true,
-    label: "DND5E.SheetClassItem"
+    label: "mc3e.SheetClassItem"
   });
-  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalClassPageSheet, {
-    label: "DND5E.SheetClassClassSummary",
+  DocumentSheetConfig.registerSheet(JournalEntryPage, "mc3e", applications.journal.JournalClassPageSheet, {
+    label: "mc3e.SheetClassClassSummary",
     types: ["class"]
   });
 
@@ -168,7 +168,7 @@ Hooks.once("init", function() {
  * @internal
  */
 function _determineValidationStrictness() {
-  dataModels.SystemDataModel._enableV10Validation = game.settings.get("dnd5e", "strictValidation");
+  dataModels.SystemDataModel._enableV10Validation = game.settings.get("mc3e", "strictValidation");
 }
 
 /**
@@ -178,9 +178,9 @@ function _determineValidationStrictness() {
 async function _configureValidationStrictness() {
   if ( !game.user.isGM ) return;
   const invalidDocuments = game.actors.invalidDocumentIds.size + game.items.invalidDocumentIds.size;
-  const strictValidation = game.settings.get("dnd5e", "strictValidation");
+  const strictValidation = game.settings.get("mc3e", "strictValidation");
   if ( invalidDocuments && strictValidation ) {
-    await game.settings.set("dnd5e", "strictValidation", false);
+    await game.settings.set("mc3e", "strictValidation", false);
     game.socket.emit("reload");
     foundry.utils.debouncedReload();
   }
@@ -194,9 +194,9 @@ async function _configureValidationStrictness() {
  * Prepare attribute lists.
  */
 Hooks.once("setup", function() {
-  CONFIG.DND5E.trackableAttributes = expandAttributeList(CONFIG.DND5E.trackableAttributes);
-  CONFIG.DND5E.consumableResources = expandAttributeList(CONFIG.DND5E.consumableResources);
-  game.dnd5e.moduleArt.registerModuleArt();
+  CONFIG.mc3e.trackableAttributes = expandAttributeList(CONFIG.mc3e.trackableAttributes);
+  CONFIG.mc3e.consumableResources = expandAttributeList(CONFIG.mc3e.consumableResources);
+  game.mc3e.moduleArt.registerModuleArt();
 });
 
 /* --------------------------------------------- */
@@ -218,7 +218,7 @@ function expandAttributeList(attributes) {
 /**
  * Perform one-time pre-localization and sorting of some configuration objects
  */
-Hooks.once("i18nInit", () => utils.performPreLocalization(CONFIG.DND5E));
+Hooks.once("i18nInit", () => utils.performPreLocalization(CONFIG.mc3e));
 
 /* -------------------------------------------- */
 /*  Foundry VTT Ready                           */
@@ -232,7 +232,7 @@ Hooks.once("ready", function() {
   _configureValidationStrictness();
 
   // Apply custom compendium styles to the SRD rules compendium.
-  const rules = game.packs.get("dnd5e.rules");
+  const rules = game.packs.get("mc3e.rules");
   rules.apps = [new applications.journal.SRDCompendium(rules)];
 
   // Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
@@ -245,9 +245,9 @@ Hooks.once("ready", function() {
 
   // Determine whether a system migration is required and feasible
   if ( !game.user.isGM ) return;
-  const cv = game.settings.get("dnd5e", "systemMigrationVersion") || game.world.flags.dnd5e?.version;
+  const cv = game.settings.get("mc3e", "systemMigrationVersion") || game.world.flags.mc3e?.version;
   const totalDocuments = game.actors.size + game.scenes.size + game.items.size;
-  if ( !cv && totalDocuments === 0 ) return game.settings.set("dnd5e", "systemMigrationVersion", game.system.version);
+  if ( !cv && totalDocuments === 0 ) return game.settings.set("mc3e", "systemMigrationVersion", game.system.version);
   if ( cv && !isNewerVersion(game.system.flags.needsMigrationVersion, cv) ) return;
 
   // Perform the migration
@@ -262,7 +262,7 @@ Hooks.once("ready", function() {
 /* -------------------------------------------- */
 
 Hooks.on("canvasInit", gameCanvas => {
-  gameCanvas.grid.diagonalRule = game.settings.get("dnd5e", "diagonalMovement");
+  gameCanvas.grid.diagonalRule = game.settings.get("mc3e", "diagonalMovement");
   SquareGrid.prototype.measureDistances = canvas.measureDistances;
 });
 
@@ -289,5 +289,5 @@ export {
   documents,
   migrations,
   utils,
-  DND5E
+  mc3e
 };

@@ -15,9 +15,9 @@ export default class ScaleValueAdvancement extends Advancement {
         configuration: ScaleValueConfigurationData
       },
       order: 60,
-      icon: "systems/dnd5e/icons/svg/scale-value.svg",
-      title: game.i18n.localize("DND5E.AdvancementScaleValueTitle"),
-      hint: game.i18n.localize("DND5E.AdvancementScaleValueHint"),
+      icon: "systems/mc3e/icons/svg/scale-value.svg",
+      title: game.i18n.localize("mc3e.AdvancementScaleValueTitle"),
+      hint: game.i18n.localize("mc3e.AdvancementScaleValueHint"),
       multiLevel: true,
       validItemTypes: new Set(["class", "subclass"]),
       apps: {

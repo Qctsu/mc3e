@@ -1,6 +1,6 @@
 # Build Artifacts
-dnd5e-compiled*
-dnd5e.lock
+mc3e-compiled*
+mc3e.lock
 
 # IDE
 .idea/

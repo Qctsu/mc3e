@@ -1,6 +1,6 @@
-![](https://github.com/foundryvtt/dnd5e/blob/v10-dev/media/repo-dnd5e.jpg?raw=true)
+![](https://github.com/foundryvtt/mc3e/blob/v10-dev/media/repo-mc3e.jpg?raw=true)
 
-# Foundry Virtual Tabletop - DnD5e Game System
+# Foundry Virtual Tabletop - mc3e Game System
 
 This game system for [Foundry Virtual Tabletop](http://foundryvtt.com) provides character sheet and game system 
 support for the Fifth Edition of the world's most popular roleplaying game.
@@ -17,14 +17,14 @@ The software component of this system is distributed under the MIT license.
 
 ## Installation Instructions
 
-To install and use the DnD5e system for Foundry Virtual Tabletop, simply paste the following URL into the 
+To install and use the mc3e system for Foundry Virtual Tabletop, simply paste the following URL into the 
 **Install System** dialog on the Setup menu of the application.
 
-https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json
+https://raw.githubusercontent.com/foundryvtt/mc3e/master/system.json
 
-If you wish to manually install the system, you must clone or extract it into the ``Data/systems/dnd5e`` folder. You
+If you wish to manually install the system, you must clone or extract it into the ``Data/systems/mc3e`` folder. You
 may do this by cloning the repository or downloading a zip archive from the
-[Releases Page](https://github.com/foundryvtt/dnd5e/releases).
+[Releases Page](https://github.com/foundryvtt/mc3e/releases).
 
 ## Community Contribution
 

@@ -13,12 +13,12 @@ export class ScaleValueConfigurationData extends foundry.abstract.DataModel {
   /** @inheritdoc */
   static defineSchema() {
     return {
-      identifier: new IdentifierField({required: true, label: "DND5E.Identifier"}),
+      identifier: new IdentifierField({required: true, label: "mc3e.Identifier"}),
       type: new foundry.data.fields.StringField({
-        required: true, initial: "string", choices: TYPES, label: "DND5E.AdvancementScaleValueTypeLabel"
+        required: true, initial: "string", choices: TYPES, label: "mc3e.AdvancementScaleValueTypeLabel"
       }),
       distance: new foundry.data.fields.SchemaField({
-        units: new foundry.data.fields.StringField({required: true, label: "DND5E.MovementUnits"})
+        units: new foundry.data.fields.StringField({required: true, label: "mc3e.MovementUnits"})
       }),
       scale: new MappingField(new ScaleValueEntryField(), {required: true})
     };
@@ -98,8 +98,8 @@ export class ScaleValueType extends foundry.abstract.DataModel {
    */
   static get metadata() {
     return {
-      label: "DND5E.AdvancementScaleValueTypeString",
-      hint: "DND5E.AdvancementScaleValueTypeHintString",
+      label: "mc3e.AdvancementScaleValueTypeString",
+      hint: "mc3e.AdvancementScaleValueTypeHintString",
       isNumeric: false
     };
   }
@@ -162,8 +162,8 @@ export class ScaleValueTypeNumber extends ScaleValueType {
   /** @inheritdoc */
   static get metadata() {
     return foundry.utils.mergeObject(super.metadata, {
-      label: "DND5E.AdvancementScaleValueTypeNumber",
-      hint: "DND5E.AdvancementScaleValueTypeHintNumber",
+      label: "mc3e.AdvancementScaleValueTypeNumber",
+      hint: "mc3e.AdvancementScaleValueTypeHintNumber",
       isNumeric: true
     });
   }
@@ -198,8 +198,8 @@ export class ScaleValueTypeCR extends ScaleValueTypeNumber {
   /** @inheritdoc */
   static get metadata() {
     return foundry.utils.mergeObject(super.metadata, {
-      label: "DND5E.AdvancementScaleValueTypeCR",
-      hint: "DND5E.AdvancementScaleValueTypeHintCR"
+      label: "mc3e.AdvancementScaleValueTypeCR",
+      hint: "mc3e.AdvancementScaleValueTypeHintCR"
     });
   }
 
@@ -237,8 +237,8 @@ export class ScaleValueTypeDice extends ScaleValueType {
   /** @inheritdoc */
   static get metadata() {
     return foundry.utils.mergeObject(super.metadata, {
-      label: "DND5E.AdvancementScaleValueTypeDice",
-      hint: "DND5E.AdvancementScaleValueTypeHintDice"
+      label: "mc3e.AdvancementScaleValueTypeDice",
+      hint: "mc3e.AdvancementScaleValueTypeHintDice"
     });
   }
 
@@ -297,8 +297,8 @@ export class ScaleValueTypeDistance extends ScaleValueTypeNumber {
   /** @inheritdoc */
   static get metadata() {
     return foundry.utils.mergeObject(super.metadata, {
-      label: "DND5E.AdvancementScaleValueTypeDistance",
-      hint: "DND5E.AdvancementScaleValueTypeHintDistance"
+      label: "mc3e.AdvancementScaleValueTypeDistance",
+      hint: "mc3e.AdvancementScaleValueTypeHintDistance"
     });
   }
 
@@ -306,7 +306,7 @@ export class ScaleValueTypeDistance extends ScaleValueTypeNumber {
 
   /** @inheritdoc */
   get display() {
-    return `${this.value} ${CONFIG.DND5E.movementUnits[this.parent.configuration.distance?.units ?? "ft"]}`;
+    return `${this.value} ${CONFIG.mc3e.movementUnits[this.parent.configuration.distance?.units ?? "ft"]}`;
   }
 }
 
