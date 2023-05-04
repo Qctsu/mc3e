@@ -7,9 +7,9 @@
     "minimum": "10.291",
     "verified": "10"
   },
-  "url": "https://github.com/Qctsu/mc3e/",
-  "manifest": "https://github.com/Qctsu/Mutant_Chronicles_FoundryVTT/releases/latest/download/system.json",
-  "download": "https://github.com/Qctsu/Mutant_Chronicles_FoundryVTT/releases/latest/download/mc3e.zip",
+  "url": "https://github.com/Qctsu/mc3e",
+  "manifest": "https://github.com/Qctsu/mc3e/releases/latest/download/system.json",
+  "download": "https://github.com/Qctsu/mc3e/releases/latest/download/mc3e.zip",
   "authors": [
     {
       "name": "Kucu",
