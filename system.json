@@ -1,8 +1,8 @@
 {
-  "id": "dnd5e",
-  "title": "DnD5e - Fifth Edition System",
-  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "2.1.5",
+  "id": "mc3e",
+  "title": "Mutant Chronicles (3rd Edition)",
+  "description": "This is a game system for Mutant Chronicles (3rd Edition) created by our band of enthusiasts and adapted to the Foundry VTT environment. If you encounter any issues, please refer to the README.md file or contact us directly.",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "10.291",
     "verified": "10"
