@@ -7,9 +7,9 @@
     "minimum": "10.291",
     "verified": "10"
   },
-  "url": "C:\\Users\\ilfri\\IdeaProjects\\mc3e\\",
-  "manifest": "C:\\Users\\ilfri\\IdeaProjects\\mc3e\\system.json",
-  "download": "C:\\Users\\ilfri\\IdeaProjects\\mc3e.zip",
+  "url": "https://github.com/Qctsu/mc3e/",
+  "manifest": "https://github.com/Qctsu/mc3e/releases/latest/download/system.json",
+  "download": "https://github.com/Qctsu/mc3e/releases/latest/download/mc3e.zip",
   "authors": [
     {
       "name": "Kucu",
